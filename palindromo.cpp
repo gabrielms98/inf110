@@ -5,6 +5,7 @@ int main(){
     int n, m;
     cin >> n;
     m=log10(n);
+
     bool palin=true;
 
     for(int i=0, j=m; i<j; i++, j--){
@@ -16,8 +17,7 @@ int main(){
         }
     }
 
-    if(palin)
-        cout << "Palindromo" << endl;
+    if(palin) cout << "Palindromo" << endl;
     else cout << "Nao Palindromo" << endl;
 
     return 0;
